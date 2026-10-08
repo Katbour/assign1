@@ -1,0 +1,115 @@
+/* header */
+header {
+    background-color: rgb(22, 22, 63);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 25px;
+}
+h1 span {
+    color: orange;
+    letter-spacing: 5px;
+}
+
+h1 {
+    letter-spacing: 1px;
+    font-weight: normal;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 27px;
+}
+
+nav {
+    display: flex;
+    text-align: right;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+#home, #about {
+    background-color: rgb(94, 94, 172);
+    border: solid rgb(94, 94, 172) 5px;
+    border-radius: 5px;
+    padding:5px 10px;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+/* footer */
+footer {
+    background-color: rgb(22, 22, 63);
+    color: rgb(195, 195, 215);
+    padding-bottom: 20px;
+    padding-top: 15px;
+}
+
+footer h4 {
+    color: white;
+    margin-bottom: 6px;
+}
+
+footer nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer hr {
+    width: 95%;
+    border-color: rgb(42, 42, 54);
+    margin-top: 28px;
+    margin-bottom: 20px;
+}
+
+small {
+    color: rgb(77, 77, 99);
+    padding-left: 40px;
+}
+
+footer a {
+    color: rgb(195, 195, 215);
+    margin-left: -20px
+}
+
+footer ul {
+    list-style: none;
+    text-align: left;
+    width: 50%;
+}
+
+footer li {
+    padding-bottom: 15px;
+}
+
+/* */
+#hero {
+    background-color: rgb(94, 94, 172);
+    padding-top: 40px;
+    padding-left: 300px;
+    padding-bottom: 250px;
+    color: white;
+}
+#hero h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    font-weight: normal;
+
+}
+
+#hero p {
+
+}
+
+#hero a {
+    padding: 9px 13px;
+    background-color: orange;
+    border: solid orange 5px;
+    border-radius: 3px;
+    color: rgb(94, 94, 172);
+    text-decoration: none;
+}
