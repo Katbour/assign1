@@ -100,7 +100,7 @@ footer li {
     font-size: 50px;
     font-weight: normal;
     margin-top: 60px;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
 }
 
 #hero div {
@@ -124,16 +124,26 @@ footer li {
     text-decoration: none;
 }
 
+#hero a:hover {
+    background-color: rgb(184, 119, 0);
+    color: rgb(22, 22, 63);
+    border-color: rgb(184, 119, 0);
+}
+
 #brackets {
     text-align: right;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    margin-right: 50px;
-    font-size: 350px;
+    font-size: 300px;
     opacity: 10%;
     margin-left: -50px;
     margin-bottom: -50px;
-    margin-top: -120px;
+    margin-top: -110px;
     margin-right: -300px;
     width: 100%;
-    letter-spacing: 300px;
+    letter-spacing: 1em;
+    pointer-events: none;
+}
+
+#featured-products {
+    font-family: 'Times New Roman', Times, serif;
 }
