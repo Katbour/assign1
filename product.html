@@ -1,6 +1,38 @@
 <!DOCTYPE html>
 <link href="a1_styles.css" rel="stylesheet">
 
+<header>
+    <h1>
+        <span>
+            //
+        </span>
+        COMP3612 Assign 1
+    </h1>
+<span>
+    <nav> 
+        <a href="index.html">Home</a>           
+        <a href="#">Shop</a>
+        <a id="about" href="about.html">About</a>
+        <a href="#">Contact</a>
+        <a href="#">Cart (0)</a>
+    </nav>
+</span>
+</header>
+
+<section id="about-a1">
+    <div>
+        <h2>
+            About COMP3623 Assign 1
+        </h2>
+        <p id = about-brackets>
+            {}
+        </p>
+    </div>
+    <p>
+        Lorem ipsum
+    </p>
+</section>
+
 <section id="product-nav-line">
     <p>
         Home > Sweaters > Marino Wool Cable Knit Sweater
@@ -31,23 +63,64 @@
             <p>
                 forged from molten plastic from china
                 <br> <br>
-                <form>
+                <form method="post" action="https://www.randyconnolly.com/tests/process.php">
                     <strong>
                         Size:
                     </strong>
+
+                    <div class="sizes">
+                        <input type="radio" name="size" id="xs" value="XS">
+                        <label for="xs">XS</label>
+
+                        <input type="radio" name="size" id="s" value="S">
+                        <label for="s">S</label>
+
+                        <input type="radio" name="size" id="m" value="M">
+                        <label for="m">M</label>
+                        
+                        <input type="radio" name="size" id="l" value="L">
+                        <label for="l">L</label>
+                        
+                        <input type="radio" name="size" id="xl" value="XL">
+                        <label for="xl">XL</label>
+
+                        <input type="radio" name="size" id="xxl" value="XXL">
+                        <label for="xxl">XXL</label>
+                    </div>
+
                     <strong>
                         Color:
                     </strong>
+                    
+                    <div class="colours">
+                        <input type="radio" name="colour" id="cream" value="cream">
+                        <label for="cream"></label>
+
+                        <input type="radio" name="colour" id="gray" value="gray">
+                        <label for="gray"></label>
+
+                        <input type="radio" name="colour" id="navy" value="navy">
+                        <label for="navy"></label>
+
+                        <input type="radio" name="colour" id="orange" value="orange">
+                        <label for="orange"></label>
+                    </div>
+
                     <strong>
                         Quantity:
                     </strong>
-                    <button>Add to Cart</button>
-                    <button>Add to Wishlist</button>
+                    <div class="quantity">
+                        <input type="number" name="quantity" min="1" value="1">
+                    </div>
+
+
+                    <button id="cart" type="submit">Add to Cart</button>
+                    <button id="wishlist" type="button">Add to Wishlist</button>
                 </form>
             </p>
         </div>
     </div>
-</secion>
+</section>
 
 <section id="product-info">
         <hr>
@@ -176,4 +249,75 @@
         lwk shit but its my only shirt
     </p>
 
-</secion>
+</section>
+
+<footer>
+    <nav>
+        <ul>
+            <li>
+                <h4>
+                    Customer Service
+                </h4>
+            </li>
+            <li>
+                <a href="#">Contact Us</a>
+            </li>
+            <li>
+                <a href="#">Size Guide</a>
+            </li>
+            <li>
+                <a href="#">Returns</a>
+            </li>
+            <li>
+                <a href="#">Shipping Info</a>
+            </li>
+        </ul>
+
+        <ul>
+            <li>
+                <h4>
+                    Company
+                </h4>
+            </li>
+            <li>
+                <a href="#">About Us</a>
+            </li>
+            <li>
+                <a href="#">Careers</a>
+            </li>
+            <li>
+                <a href="#">Press</a>
+            </li>
+            <li>
+                <a href="#">Privacy Policy</a>
+            </li>
+        </ul>
+        
+        <ul>
+            <li>
+                <h4>
+                    Connect
+                </h4>
+            </li>
+            <li>
+                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Newsletter</a>
+            </li>
+            <li>
+                <a href="#">Facebook</a>
+            </li>
+            <li>
+                <a href="#">Instagram</a>
+            </li>
+            <li>
+                <a href="#">Twitter</a>
+            </li>
+        </ul>
+    </nav>
+
+    <hr/>
+
+    <small>
+        &copy; COMP3612. All rights reserved
+    </small>
+</footer>
+

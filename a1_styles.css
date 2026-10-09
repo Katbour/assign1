@@ -1,6 +1,6 @@
 /* header */
 header {
-    background-color: rgb(22, 22, 63);
+    background-color: #181B25;
     color: white;
     display: flex;
     justify-content: space-between;
@@ -8,7 +8,7 @@ header {
     padding: 0px 25px;
 }
 h1 span {
-    color: orange;
+    color: #CEA63D;
     letter-spacing: 5px;
 }
 
@@ -31,10 +31,12 @@ nav a{
 }
 
 #home, #about {
-    background-color: rgb(94, 94, 172);
-    border: solid rgb(94, 94, 172) 5px;
+    background-color: #38485C;
+    border: solid #38485C 5px;
     border-radius: 5px;
     padding:5px 10px;
+    margin-left: 10px;
+    margin-right: 0px;
 }
 body {
     margin: 0px;
@@ -43,7 +45,7 @@ body {
 
 /* footer */
 footer {
-    background-color: rgb(22, 22, 63);
+    background-color: #181B25;
     color: rgb(195, 195, 215);
     padding-bottom: 20px;
     padding-top: 15px;
@@ -88,7 +90,7 @@ footer li {
 
 /*index.html*/
 #hero {
-    background-color: rgb(94, 94, 172);
+    background-color: #282D3E;
     padding-top: 40px;
     padding-left: 280px;
     padding-bottom: 90px;
@@ -111,23 +113,23 @@ footer li {
 }
 
 #hero p {
-    color: white;
+    color: rgb(195, 195, 215);
     padding-bottom: 30px;
 }
 
 #hero a {
     padding: 12px 20px 13px;
-    background-color: orange;
-    border: solid orange 3px;
+    background-color: #CEA63D;
+    border: solid #CEA63D 3px;
     border-radius: 3px;
-    color: rgb(94, 94, 172);
+    color: #282D3E;
     text-decoration: none;
 }
 
 #hero a:hover {
-    background-color: rgb(184, 119, 0);
-    color: rgb(22, 22, 63);
-    border-color: rgb(184, 119, 0);
+    background-color: #ad8624;
+    color: #282D3E;
+    border-color: #ad8624;
 }
 
 #home-brackets {
@@ -144,11 +146,11 @@ footer li {
 
 #featured-products {
     font-family: 'Times New Roman', Times, serif;
-    background-color: rgb(190, 190, 190);
+    background-color: #F3F4F7;
     padding-top: 12px;
     padding-bottom: 60px;
     border: solid white 1.5px;
-    border-bottom: solid gray 1.5px;
+    border-bottom: solid #E6E6EB 1.5px;
 }
 
 #featured-products h3 {
@@ -178,7 +180,7 @@ footer li {
     width: 20%;
     height: 465px;
     padding: 0px;   
-    border: solid gray 2px;
+    border: solid #E6E6EB 2px;
     border-radius: 6px; 
     text-align: left; 
 }
@@ -194,7 +196,7 @@ footer li {
 }
 
 #featured-products .box .image-wrap {
-    background-color: rgb(190, 190, 190);
+    background-color: #F3F4F7;
     padding: 50px 26px ;
 }
 
@@ -227,7 +229,7 @@ footer li {
 }
 
 #featured-products .box li:hover .coloured-bar {
-    background-color: orange;
+    background-color: #CEA63D;
 }
 
 #home-about {
@@ -243,15 +245,15 @@ footer li {
 }
 
 #home-about p {
-    color: rgb(77, 77, 77);
+    color: rgb(45, 45, 45);
 }
 
 /*about.html*/
 #about-a1 {
     padding-top: 35px;
-    background-color: red;
+    background-color: #282D3E;
     padding-bottom: 45px;
-    color: white;
+    color: rgb(195, 195, 215);
     padding-left: 405px;
 }
 
@@ -260,18 +262,18 @@ footer li {
     font-size: 40px;
     font-weight: normal;
     margin-bottom: 0;
+    color: white;
 }
 
 #about-brackets {
     font-family:Arial, Helvetica, sans-serif;
-    font-size: 230px;
+    font-size: 210px;
     opacity: 10%;
     letter-spacing: 1em;
-    margin-top: -90px;
-    margin-left: 485px;
+    margin-top: -70px;
+    margin-left: 515px;
     pointer-events: none;
     position: absolute;
-    color: blue;
 }
 
 #about-a1 div {
@@ -285,10 +287,11 @@ footer li {
     display: flex;
     justify-content:space-between;
     padding-bottom: 100px;
-    background-color: aqua;
+    background-color: #F3F4F7;
     padding: 20px 40px;
     border: solid white 1.5px;
-    border-bottom: solid gray 1.5px;
+    border-bottom: solid #E6E6EB 1.5px;
+    color: rgb(45, 45, 45);
 }
 
 #our-story h3, #team h3, #contact h3 {
@@ -296,6 +299,7 @@ footer li {
     font-size: 35px;
     margin-right: 50px;
     white-space: nowrap;
+    color: black;
 }
 
 #our-story span {
@@ -327,10 +331,10 @@ footer li {
 }
 
 #our-values .box li {
-    background-color: rgb(219, 219, 219);
+    background-color: #F3F4F7;
     width: 20%;
     padding: 10px 20px;   
-    border: solid gray 2px;
+    border: solid #E6E6EB 2px;
     border-radius: 3px; 
     text-align: left; 
     padding-right: 30px;
@@ -343,7 +347,7 @@ footer li {
 }
 
 #our-values p {
-    color: gray;
+    color: rgb(45, 45, 45);
 }
 
 #our-values .letter {
@@ -380,7 +384,7 @@ footer li {
 
 #our-journey li h5 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: green;
+    color: rgb(19, 148, 92);
     margin-bottom: 0;
 }
 
@@ -392,8 +396,8 @@ footer li {
 #our-journey .inner-circle {
     height: 10px;
     width: 10px;
-    background-color: orange;
-    border: solid gray 1px;
+    background-color: #CEA63D;
+    border: solid #E6E6EB 1px;
     border-radius: 50%;
     margin-top: 2px;
     position: relative;
@@ -404,7 +408,7 @@ footer li {
     height: 15px;
     width: 15px;
     background-color: white;
-    border: solid gray 1px;
+    border: solid #E6E6EB 1px;
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -422,16 +426,16 @@ footer li {
     margin-top: 25px;
     height: 300px;
     width: 2px;
-    border-right: gray solid 1.5px;
+    border-right: #E6E6EB solid 1.5px;
     position: absolute;
     padding-right: 304px;
 }
 
 #contact {
     border: solid white 1.5px;
-    border-top: solid gray 1.5px;
+    border-top: solid #E6E6EB 1.5px;
     padding: 15px 40px;
-    background-color: rgb(192, 191, 191);
+    background-color: #F3F4F7;
     padding-bottom: 45px;
 }
 
@@ -448,7 +452,7 @@ footer li {
     background-color: white;
     width: 30%;
     padding: 10px 20px;   
-    border: solid gray 2px;
+    border: solid #E6E6EB 2px;
     border-radius: 3px; 
     text-align: left; 
 }
@@ -462,13 +466,14 @@ footer li {
 #contact .box li p {
     margin-top: 10px;
     line-height: 145%;
+    color: rgb(45, 45, 45);
 }
 
 #team {
-    background-color: cadetblue;
+    background-color: #F3F4F7;
     border: solid white 1.5px;
-    border-bottom: solid gray 1.5px;
-    border-top: solid gray 1.5px;
+    border-bottom: solid #E6E6EB 1.5px;
+    border-top: solid #E6E6EB 1.5px;
     padding: 15px 40px;
     padding-bottom: 35px;
 }
@@ -495,7 +500,7 @@ footer li {
 
 #team .box img {
     max-width: 100%;
-    border: solid gray 2px;
+    border: solid #E6E6EB 2px;
     border-radius: 3px; 
     background-color: white;
     height: 300px;
@@ -506,7 +511,7 @@ footer li {
 #team .box h6 {
     margin-bottom: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: orange;
+    color: #CEA63D;
     font-weight: normal;
     font-size: 12px;
     margin-top: 0;
@@ -519,7 +524,7 @@ footer li {
 }
 
 #team p {
-    color: gray;
+    color: rgb(45, 45, 45);
     margin-top: 10px;
 }
 
@@ -537,7 +542,7 @@ footer li {
 #product-rating {
     margin-top: 10px;
     margin-bottom: 20px;
-    color: orange;
+    color: #CEA63D;
 }
 
 #product-page .box {
@@ -550,16 +555,16 @@ footer li {
 }
 
 #product-page {
-    background-color: darkslateblue;
+    background-color: #F3F4F7;
     padding-top: 30px;
-    border-top: solid gray 1.5px;
+    border-top: solid #E6E6EB 1.5px;
     border-right: solid white 1.5px;
     border-left: solid white 1.5px;
 }
 
 #main-img {
     height:auto;
-    width: 130.5%;
+    width: 155.5%;
 }
 
 #small-images {
@@ -569,12 +574,15 @@ footer li {
 
 #small-images img {
     padding-top: 10px;
-    width: 41%;
+    width: 49.5%;
     flex-shrink: 0;
 }
 
 #product-info {
     padding: 10px 40px;
+    background-color: #F3F4F7;
+    border-right: solid white 1.5px;
+    border-left: solid white 1.5px;
 }
 
 #product-info span {
@@ -592,11 +600,14 @@ footer li {
     margin-top: -20px;
     width: 90px;
     height: 2px;
-    background: orange;
+    background: #CEA63D;
 }
 
 #product-desc {
     padding: 10px 40px;
+    background-color: #F3F4F7;
+    border-right: solid white 1.5px;
+    border-left: solid white 1.5px;
 }
 
 #product-desc h3, #product-reviews h3 {
@@ -622,6 +633,9 @@ footer li {
 
 #product-reviews {
     padding: 10px 40px;
+    background-color: #F3F4F7;
+    border-right: solid white 1.5px;
+    border-left: solid white 1.5px;
 }
 #product-reviews span {
     color: orange;
@@ -640,3 +654,102 @@ footer li {
 #product-reviews strong {
     padding-right: 10px;
 }
+
+.sizes, .colours {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+
+}
+
+.sizes label {
+    border: solid #E6E6EB 1.5px;
+    border-radius: 4px;
+    background-color: #F3F4F7;
+    cursor: pointer;
+    padding: 10px 10px;
+    margin-bottom: 15px;
+    margin-right: 2px;
+    margin-top: 12px;
+}
+
+.sizes input, .colours input {
+    display: none;
+}
+
+.sizes input:checked + label {
+    border: solid black 2px;
+}
+
+.colours label {
+    border: solid #E6E6EB 1.5px;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    background-color: white;
+    cursor: pointer;
+    margin-bottom: 15px;
+    margin-top: 7px;
+}
+
+.colours input:checked + label {
+    border: solid black 2px;
+}
+
+.colours #cream + label {
+    background-color: wheat;
+}
+
+.colours #gray + label {
+    background-color: darkgray;
+}
+
+.colours #navy + label {
+    background-color: navy;
+}
+
+.colours #orange + label {
+    background-color: orange;
+}
+
+.quantity input {
+    width: 100px;
+    height: 25px;
+    margin-top: 10px;
+}
+
+#cart {
+    border: solid #CEA63D 1px;
+    border-radius: 3px;
+    background-color: #CEA63D;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin-right: 5px;
+}
+
+form button {
+    margin-top: 25px;
+}
+
+#cart:hover {
+    background-color: #ad8624;
+    border-color: #ad8624;
+}
+
+#wishlist {
+    border: solid black 2px;
+    border-radius: 3px;
+    background-color: #F3F4F7;
+    font-weight: bold;
+    padding: 10px 20px;
+}   
+
+#wishlist:hover {
+    background-color: black;
+    color: white;
+}
+
+#product-text {
+    padding-left: 120px;
+}
+
