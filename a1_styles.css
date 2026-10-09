@@ -86,7 +86,7 @@ footer li {
     padding-bottom: 15px;
 }
 
-/* */
+/*index.html*/
 #hero {
     background-color: rgb(94, 94, 172);
     padding-top: 40px;
@@ -106,7 +106,6 @@ footer li {
 #hero div {
     display: flex;
     justify-content: space-between;
-    gap: 2px;
     overflow-x: clip;
     position: relative;
 }
@@ -131,7 +130,7 @@ footer li {
     border-color: rgb(184, 119, 0);
 }
 
-#brackets {
+#home-brackets {
     font-family:Arial, Helvetica, sans-serif;
     font-size: 300px;
     opacity: 10%;
@@ -245,4 +244,154 @@ footer li {
 
 #home-about p {
     color: rgb(77, 77, 77);
+}
+
+/*about.html*/
+#about-a1 {
+    padding-top: 35px;
+    background-color: red;
+    padding-bottom: 45px;
+    color: white;
+    padding-left: 405px;
+}
+
+#about-a1 h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    font-weight: normal;
+    margin-bottom: 0;
+}
+
+#about-brackets {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 230px;
+    opacity: 10%;
+    letter-spacing: 1em;
+    margin-top: -90px;
+    margin-left: 485px;
+    pointer-events: none;
+    position: absolute;
+    color: blue;
+}
+
+#about-a1 div {
+    display: flex;
+    justify-content: space-between;
+    overflow-x: clip;
+    position: relative;
+}
+
+#our-story  {
+    display: flex;
+    justify-content:space-between;
+    padding-bottom: 100px;
+    background-color: aqua;
+    padding: 20px 40px;
+    border: solid white 1.5px;
+    border-bottom: solid gray 1.5px;
+}
+
+#our-story h3, #team h3, #contact h3 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35px;
+    margin-right: 50px;
+    white-space: nowrap;
+}
+
+#our-story span {
+    padding-top: 25px;
+    padding-left: 100px;
+}
+
+#our-values {
+    background-color: white;
+    padding-top: 5px;
+    padding-bottom: 35px;
+}
+
+#our-values h4, #our-journey h4 {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+#our-values .box {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+#our-values .box li {
+    background-color: rgb(219, 219, 219);
+    width: 20%;
+    padding: 10px 20px;   
+    border: solid gray 2px;
+    border-radius: 3px; 
+    text-align: left; 
+    padding-right: 30px;
+}
+
+#our-values h5 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;
+    margin: 0;
+}
+
+#our-values p {
+    color: gray;
+}
+
+#our-values .letter {
+    background-color: black;
+    text-align: center;
+    width: 30px;
+    height: 25px;
+    border: solid black 5px;
+    border-radius: 2px;
+    padding-top: 5px;
+    font-family: 'Times New Roman', Times, serif
+}
+
+#quality .letter {
+    color: orange;
+}
+#sustainability .letter {
+    color: rgb(74, 74, 234);
+}
+#innovation .letter {
+    color: white;
+}
+
+
+#team {
+    background-color: cadetblue;
+    border: solid white 1.5px;
+    border-bottom: solid gray 1.5px;
+    border-top: solid gray 1.5px;
+    padding: 15px 40px;
+}
+
+#team h3 {
+    margin-bottom: 0;
+}
+
+#our-journey ul {
+    padding-left: 300px;
+    list-style-type: none;
+}
+
+#our-journey li h5 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: green;
+    margin-bottom: 0;
+}
+
+
+#our-journey li p {
+    margin-top: 10px;
 }
