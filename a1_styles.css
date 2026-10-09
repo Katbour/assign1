@@ -630,14 +630,11 @@ footer li {
 #product-reviews .review {
     display: flex;
     justify-content: space-between;
+    padding-top: 20px;
 }
 
 #product-reviews p {
     padding-bottom: 20px;
-}
-
-#product-reviews h3 {
-    padding-bottom: 10px;
 }
 
 #product-reviews strong {
