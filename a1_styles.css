@@ -148,6 +148,8 @@ footer li {
     background-color: rgb(190, 190, 190);
     padding-top: 12px;
     padding-bottom: 60px;
+    border: solid white 1.5px;
+    border-bottom: solid gray 1.5px;
 }
 
 #featured-products h3 {
@@ -190,8 +192,11 @@ footer li {
     max-width: 100%;
     display: block;
     margin: auto;
+}
+
+#featured-products .box .image-wrap {
     background-color: rgb(190, 190, 190);
-    padding: 50px 26.5px ;
+    padding: 50px 26px ;
 }
 
 #featured-products .box a {
