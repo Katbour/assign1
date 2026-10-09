@@ -93,7 +93,7 @@ footer li {
     padding-left: 280px;
     padding-bottom: 90px;
     color: white;
-    
+
 }
 #hero h2 {
     font-family: 'Times New Roman', Times, serif;
@@ -107,7 +107,8 @@ footer li {
     display: flex;
     justify-content: space-between;
     gap: 2px;
-
+    overflow-x: clip;
+    position: relative;
 }
 
 #hero p {
@@ -131,19 +132,112 @@ footer li {
 }
 
 #brackets {
-    text-align: right;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family:Arial, Helvetica, sans-serif;
     font-size: 300px;
     opacity: 10%;
-    margin-left: -50px;
-    margin-bottom: -50px;
-    margin-top: -110px;
-    margin-right: -300px;
-    width: 100%;
+    margin-top: -95px;
+    margin-left: 490px;
     letter-spacing: 1em;
     pointer-events: none;
+    position: absolute;
+    overflow: hidden;
 }
 
 #featured-products {
     font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(190, 190, 190);
+    padding-top: 12px;
+    padding-bottom: 60px;
+}
+
+#featured-products h3 {
+    padding-left: 35px;
+}
+
+#featured-products .box {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 15px;
+    gap: 55px;
+    
+}
+
+#featured-products .box p {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#featured-products .box li {
+    background-color: white;
+    width: 20%;
+    height: 465px;
+    padding: 0px;   
+    border: solid gray 2px;
+    border-radius: 6px; 
+    text-align: left; 
+}
+
+#featured-products .box li:hover {
+    border: solid black 2px;
+}
+
+#featured-products .box img {
+    max-width: 100%;
+    display: block;
+    margin: auto;
+    background-color: rgb(190, 190, 190);
+    padding: 50px 26.5px ;
+}
+
+#featured-products .box a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    background-color: white;
+    border: solid black 2px;
+    border-radius: 3px;
+    color: black;
+    padding: 10px;
+}
+
+#featured-products .box a:hover {
+    color: white;
+    background-color: black;
+}
+
+#featured-products .price {
+    color: rgb(77, 77, 77);
+}
+
+#featured-products .coloured-bar {
+    background-color: green;
+    height: 3px;
+    margin-bottom: 0;
+    max-width: 100%;
+    padding-top: 0;
+}
+
+#featured-products .box li:hover .coloured-bar {
+    background-color: orange;
+}
+
+#home-about {
+    padding-left: 35px;
+    padding-bottom: 20px;
+    margin-right: 500px;
+    margin-top: 30px;
+}
+
+#home-about h3, #featured-products h3 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 23px;
+}
+
+#home-about p {
+    color: rgb(77, 77, 77);
 }
