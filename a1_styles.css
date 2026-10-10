@@ -30,6 +30,7 @@ nav a{
     padding-left: 20px;
 }
 
+/* to highlight whichever page you're currently on */
 #home, #about {
     background-color: #38485C;
     border: solid #38485C 5px;
@@ -68,6 +69,7 @@ footer hr {
     margin-bottom: 20px;
 }
 
+/*the copyright text*/
 small {
     color: rgb(77, 77, 99);
     padding-left: 40px;
@@ -108,7 +110,7 @@ footer li {
 #hero div {
     display: flex;
     justify-content: space-between;
-    overflow-x: clip;
+    overflow-x: clip; /* used to stop bracket from creating overflow. researched through https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/overflow-x*/
     position: relative;
 }
 
@@ -132,6 +134,7 @@ footer li {
     border-color: #ad8624;
 }
 
+/* bracket decoration */
 #home-brackets {
     font-family:Arial, Helvetica, sans-serif;
     font-size: 300px;
@@ -139,9 +142,8 @@ footer li {
     margin-top: -95px;
     margin-left: 490px;
     letter-spacing: 1em;
-    pointer-events: none;
-    position: absolute;
-    overflow: hidden;
+    pointer-events: none; /*otherwise it blocks the header nav*/
+    position: absolute; 
 }
 
 #featured-products {
@@ -265,6 +267,7 @@ footer li {
     color: white;
 }
 
+/*basically same as other bracket decoration*/
 #about-brackets {
     font-family:Arial, Helvetica, sans-serif;
     font-size: 210px;
@@ -273,7 +276,7 @@ footer li {
     margin-top: -70px;
     margin-left: 515px;
     pointer-events: none;
-    position: absolute;
+    position: absolute; 
 }
 
 #about-a1 div {
@@ -401,7 +404,6 @@ footer li {
     border-radius: 50%;
     margin-top: 2px;
     position: relative;
-    flex-shrink: 0;
 }
 
 #our-journey .outer-circle {
@@ -414,7 +416,6 @@ footer li {
     justify-content: center;
     margin-top: 22px;
     position: relative;
-    flex-shrink: 0;
 }
 
 #our-journey .bullet-point  {
@@ -549,7 +550,6 @@ footer li {
     display: flex;
     flex-wrap: wrap;
     gap: 150px;
-    align-items: flex-start;
     margin: 0;
     padding: 20px 40px
 }
@@ -638,7 +638,7 @@ footer li {
     border-left: solid white 1.5px;
 }
 #product-reviews span {
-    color: orange;
+    color: #CEA63D
 }
 
 #product-reviews .review {
@@ -654,6 +654,8 @@ footer li {
 #product-reviews strong {
     padding-right: 10px;
 }
+
+/* used code from https://www.w3schools.com/howto/howto_css_custom_checkbox.asp to help with css for form inputs */
 
 .sizes, .colours {
     display: flex;
